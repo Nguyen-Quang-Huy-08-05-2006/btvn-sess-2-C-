@@ -9,3 +9,4 @@ int main(){
 	printf("dien tich = %d %d \n", dienTich);
 	
 	return0;
+}
