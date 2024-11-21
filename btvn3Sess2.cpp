@@ -1,14 +1,17 @@
 #include<stdio.h>
 int main(){
-	int canhA = 5;
-	int canhB = 5;
-	scanf("%d %d", &canhA, &canhB);
-	int chuVi = 2 * (canhA + canhB);
-	printf("chu vi = %d %d \n", chuVi);
-	int dienTich = canhA * canhB;
-	printf("dien tich = %d %d \n", dienTich);
+	int num1 = 20;
+	int num2 = 100;
+	int tong = num1 + num2;
+	printf("tong = %d \n", tong);
+	int tich = num1 * num2;
+	printf("tich = %d \n", tich);
+	int hieu = num1 - num2;
+	printf("hieu = %d \n", hieu);
+	int thuong = num1 / num2;
+	printf("thuong = %d \n", thuong);
 	
-	return0;
+	return 0;
 
 	
 }
